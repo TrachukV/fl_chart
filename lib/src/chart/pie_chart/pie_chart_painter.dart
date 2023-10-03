@@ -145,6 +145,7 @@ class PieChartPainter extends BaseChartPainter<PieChartData> {
 
   /// Generates a path around a section
   @visibleForTesting
+  @visibleForTesting
   Path generateSectionPath(
       PieChartSectionData section,
       double sectionSpace,
@@ -222,6 +223,7 @@ class PieChartPainter extends BaseChartPainter<PieChartData> {
 
     return sectionPath;
   }
+
 
   /// Creates a rect around a narrow line
   @visibleForTesting
